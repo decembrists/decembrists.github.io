@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,700&display=swap&subset=cyrillic');
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+body {
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+p {
+    hyphens: auto;
+}
+
+.description {
+    font-style: italic;
+    font-size: 0.5em;
+}
+
+.descriptio {
+    font-style: italic;
+    font-size: 0.5em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    // border: 1px solid black;
+}
+
+.lead {
+    margin-top: 142px;
+    &-header {
+        font-weight: 700;
+        margin-top: 49px;
+        margin-bottom: 29px;
+    }
+}
+
+.paragraph {
+    margin-bottom: 27px;
+}
+
+#first {
+    padding-left: 4.5px;
+}
+
+.head-h2 {
+    margin-top: 100px;
+}
+
+.block-pic {
+    display: flex;
+}
+
+.illustration {
+    position: relative;
+    text-align: center;
+    // border: 2px solid black;
+    &-first {
+        position: relative;
+        margin-bottom: 85px;
+        margin-right: 20px;
+        // text-align: center;
+        right: -25px;
+    }
+    &-second {
+        position: relative;
+        right: -110px;
+        // text-align: center;
+    }
+    .description {
+        position: relative;
+        right: -50px;
+    }
+    .descriptio {
+        position: relative;
+        right: 40px;
+    }
+}
+
+.par {
+    width: 55%;
+}
+
+.par2 {
+    width: 60%;
+}
+
+.num {
+    padding-left: 100px;
+    font-weight: 700;
+    font-size: 4em;
+    line-height: 80px;
+}
+
+.block-pic2 {
+    display: flex;
+    justify-content: center;
+}
+
+.second-part {
+    margin-top: 100px;
+}
+
+.second-part .paragraph {
+    margin-bottom: 130px;
+    padding-left: 105px;
+}
+
+span {
+    font-weight: 700;
+}
