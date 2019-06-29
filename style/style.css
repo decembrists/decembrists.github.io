@@ -253,6 +253,10 @@ span {
     display: none;
 }
 
+#img-no {
+    display: none;
+}
+
 #hui {
     display: none;
 }
@@ -263,7 +267,11 @@ span {
     }
     #img-none {
         display: block;
-        margin-top: -20px;
+        margin-top: -5px;
+        margin-bottom: 30px;
+    }
+    #img-no {
+        display: block;
         margin-bottom: 30px;
     }
     body {
@@ -303,12 +311,6 @@ span {
         display: flex;
         justify-content: center;
         margin-top: 40px;
-    }
-    .image-none1 {
-        display: flex;
-        justify-content: center;
-        margin-top: 0px;
-        margin-bottom: 30px;
     }
     .date-none {
         margin-top: 40px;
@@ -375,5 +377,11 @@ span {
     }
     img {
         object-fit: contain;
+    }
+    #joska {
+        margin-top: -15px;
+    }
+    #joska2 {
+        margin-top: -7px;
     }
 }
