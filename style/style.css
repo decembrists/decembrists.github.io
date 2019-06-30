@@ -62,17 +62,12 @@ img {
 }
 
 .lead-header {
+    margin-top: 45px;
     font-weight: 700;
-    margin-top: 49px;
-    margin-bottom: 29px;
 }
 
 #first {
     padding-left: 4.5px;
-}
-
-.head-h2 {
-    margin-top: 70px;
 }
 
 .head-h22 {
@@ -177,22 +172,27 @@ img {
     display: flex;
 }
 
-.second-part {
-    margin-top: 80px;
-}
+
+/* .second-part {
+    margin-top: 90px;
+} */
 
 .second-part .paragraph {
     margin-bottom: 100px;
     padding-left: 119px;
 }
 
-.third-part {
-    margin-top: 20px;
-}
-
 .third-part .paragraph {
     margin-bottom: 50px;
     padding-left: 105px;
+}
+
+.div {
+    display: block;
+}
+
+.div1 {
+    display: none;
 }
 
 span {
@@ -204,16 +204,15 @@ span {
     justify-content: space-between;
 }
 
-.head-h2222 {
-    margin-top: 50px;
-}
-
 .lolzaeb {
     width: 55%;
 }
 
+#pikchis {
+    margin-bottom: 50px;
+}
+
 .pikchi-1 {
-    margin-bottom: 60px;
     text-align: center;
 }
 
@@ -262,6 +261,9 @@ span {
     h1 {
         font-size: 1.7em;
     }
+    .div {
+        display: none;
+    }
     #img-none {
         display: block;
         margin-bottom: 30px;
@@ -309,6 +311,9 @@ span {
         justify-content: center;
         margin-top: 0px;
         margin-bottom: 30px;
+    }
+    .div1 {
+        display: block;
     }
     .date-none {
         margin-top: 40px;
