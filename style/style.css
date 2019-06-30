@@ -172,10 +172,9 @@ img {
     display: flex;
 }
 
-
-/* .second-part {
+.second-part {
     margin-top: 90px;
-} */
+}
 
 .second-part .paragraph {
     margin-bottom: 100px;
