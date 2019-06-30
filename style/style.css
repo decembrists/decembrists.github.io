@@ -41,6 +41,7 @@ p {
 }
 
 .descripti {
+    padding-top: 5px;
     font-style: italic;
     font-size: 0.5em;
     text-align: center;
@@ -124,7 +125,7 @@ img {
 }
 
 .illus {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .par {
@@ -253,10 +254,6 @@ span {
     display: none;
 }
 
-#img-no {
-    display: none;
-}
-
 #hui {
     display: none;
 }
@@ -266,11 +263,6 @@ span {
         font-size: 1.7em;
     }
     #img-none {
-        display: block;
-        margin-top: -15px;
-        margin-bottom: 30px;
-    }
-    #img-no {
         display: block;
         margin-bottom: 30px;
     }
@@ -311,6 +303,12 @@ span {
         display: flex;
         justify-content: center;
         margin-top: 40px;
+    }
+    .image-none1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 30px;
     }
     .date-none {
         margin-top: 40px;
@@ -377,11 +375,5 @@ span {
     }
     img {
         object-fit: contain;
-    }
-    #joska {
-        margin-top: -15px;
-    }
-    #joska2 {
-        margin-top: -7px;
     }
 }
